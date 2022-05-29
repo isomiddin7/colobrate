@@ -1,0 +1,64 @@
+*{
+    margin: auto 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 1%;
+    display: flex;
+}
+.right{
+    width: 50%;
+}
+svg{
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #17a2b8;
+}
+svg:hover{
+    color: rgba(0,0,0,0.9);
+}
+.left{
+    margin-left: 65%;
+    width: 50%;
+}
+.left a{
+    border-radius: 5px;
+    color: #17a2b8;
+    text-decoration: none;
+    padding: 15px;
+    /* border: 1px solid black; */
+}
+.left a:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.cards{
+    margin-top: 20px;
+    margin-right: 5%;
+    display: flex;
+}
+.cards a{
+    text-decoration: none;
+    color: #6c757d;
+    background-color: rgba(0,0,0,0.03);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    margin-left: 10%;
+}
+.cards  div:hover{
+    background-color:#6c757d; 
+     color: white; 
+}
+.cards a:hover{
+    background-color:#6c757d; 
+    color: white;
+}
